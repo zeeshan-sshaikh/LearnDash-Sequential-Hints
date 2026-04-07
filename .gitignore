@@ -1,0 +1,21 @@
+# WordPress / PHP
+vendor/
+*.log
+*.cache
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Build artifacts
+node_modules/
+dist/

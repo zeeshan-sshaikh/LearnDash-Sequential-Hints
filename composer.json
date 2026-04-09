@@ -1,0 +1,19 @@
+{
+    "name": "zeeshan-sshaikh/learndash-sequential-hints",
+    "description": "Empower your LearnDash quizzes with a professional tiered hint system.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Zeeshan Shaikh"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "LearnDashHints\\": "includes/"
+        }
+    }
+}
